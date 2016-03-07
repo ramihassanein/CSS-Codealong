@@ -70,3 +70,33 @@ figcaption {
 #details a:active {
   color: red;
 }
+/*Styling LAYOUT*/
+
+.wrapper {
+    width: 980px;
+    margin:0 auto;
+    background: lightgray;
+}
+
+.col-1{
+    float:left;
+    width:32%;
+    background: lightpink;
+}
+.col-2{
+    float:left;
+    width:66%;
+    background: lightpink;
+}
+.col-3{
+    width:100%;
+    background: lightpink;
+    
+}
+[class*="col-"] {
+    margin-left:2%;
+}
+
+.first {
+    margin-left: 0%;
+}
