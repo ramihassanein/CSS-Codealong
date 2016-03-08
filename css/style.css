@@ -41,10 +41,6 @@ figcaption {
 
 /* ID selector (apply to one unique element per page) */
 
-#logo { /* select elements with id="logo" */
-  
-}
-
 /* Descendent Selector */
 
 #logo h1 { /* selects <h1> if inside the id="logo" */
@@ -94,16 +90,16 @@ img, video, audio {
 .col-1{
     float:left;
     width:32%;
-    background: lightgray;
+    /*background: lightgray;*/
 }
 .col-2{
     float:left;
     width:66%;
-    background: lightgray;
+    /*background: lightgray;*/
 }
 .col-3{
     width:100%;
-    background: lightgray; 
+    /*background: lightgray;*/
 }
 
 .clearfix:after {
